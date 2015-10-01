@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" ng-app="sandbox">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"/>-->
+    <!-- build:css({.tmp,app}) /styles/main.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+    <!-- endinject -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+
+</head>
+<body>
+
+<mw-navbar></mw-navbar>
+<ng-view></ng-view>
+
+<footer>
+    <!-- build:js /scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-loader/angular-loader.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/jasmine/lib/jasmine-core/jasmine.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js /scripts/main.js -->
+    <!-- inject:vendorjs -->
+
+    <script src="bower_components/angular-loader/angular-loader.min.js"></script>
+
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <script src="bower_components/jquery/src/sizzle/dist/sizzle.min.js"></script>
+
+    <!-- endinject -->
+    <!-- inject:js -->
+
+    <script src="angular-routes/main.js"></script>
+
+    <script src="components/ui-components/main.js"></script>
+
+    <script src="components/minions/controllers/main.js"></script>
+
+    <script src="angular-routes/routes.js"></script>
+
+    <script src="app.js"></script>
+
+    <script src="components/minions/controllers/minion.js"></script>
+
+    <script src="components/navigation/directives/navbarDirective.js"></script>
+
+    <script src="components/ui-components/cards/cardPanelDirective.js"></script>
+
+    <script src="components/version/interpolate-filter.js"></script>
+
+    <script src="components/version/version-directive.js"></script>
+
+    <script src="components/version/version.js"></script>
+
+    <!-- endinject -->
+    <!-- inject:partials -->
+
+    <script src="components/minions/templates/minion-list.tpl.js"></script>
+
+    <script src="components/navigation/directives/navbar.tpl.js"></script>
+
+    <script src="components/ui-components/cards/card-panel.tpl.js"></script>
+
+    <!-- endinject -->
+    <!-- endbuild -->
+</footer>
+</body>
+</html>

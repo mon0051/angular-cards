@@ -1,0 +1,18 @@
+@import 'vars';
+$mw-card-top-bottom-ratio:80%;
+.mw-card-panel{
+  background:$rl-stucco;
+  width:245px;
+  height:340px;
+  border-radius:8px;
+  .mw-card-panel-top{
+    height:$mw-card-top-bottom-ratio;
+    width:100%;
+  }
+  .mw-card-panel-bottom{
+    height:100 -$mw-card-top-bottom-ratio;
+    .mw-card-panel-title{
+      text-align: center;
+    }
+  }
+}
