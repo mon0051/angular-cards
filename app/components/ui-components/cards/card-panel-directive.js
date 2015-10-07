@@ -5,7 +5,8 @@
          return {
             restrict: 'E',
             scope: {
-               title: '@title'
+               title: '@title',
+               cost: '@cost'
             },
             templateUrl: 'components/ui-components/cards/card-panel.html'
          };

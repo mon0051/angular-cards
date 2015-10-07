@@ -1,8 +1,10 @@
 (function () {
    angular
       .module('mwUiComponents')
-      .directive('cardImageDirective', function () {
+      .directive('mwCardImage', function () {
          return{
+            attributes:'E',
+            replace:true,
             templateUrl:'components/ui-components/cards/card-panel-image.html'
          }
       });

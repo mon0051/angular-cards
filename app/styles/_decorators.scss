@@ -1,0 +1,11 @@
+@import 'vars';
+.mw-golden-border-outer{
+  border:3px solid $rl-gold;
+  background:$rl-gold;
+  border-radius: $card-rounding;
+  .mw-golden-border{
+    border-radius: $card-rounding;
+    background: darken($rl-gold,20%);
+    border:2px solid darken($rl-gold,20%);
+  }
+}

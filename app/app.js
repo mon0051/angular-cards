@@ -3,7 +3,7 @@
    var sandbox = angular.module('sandbox', [
       'ngRoute',
       'sandbox.version',
-      'sandbox.controllers',
+      'mwMinions',
       'mwUiComponents',
       'mwRoute'
    ]);
