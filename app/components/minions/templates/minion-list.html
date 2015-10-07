@@ -4,7 +4,7 @@
             <div class="panel-heading">Search: <input ng-model="query"></div>
             <div class="content-center-wrapper">
                 <div class="panel-body">
-                    <ul class="list-inline">
+                    <ul class="list-inline auto-center-list">
                         <li class="media" ng-repeat="minion in minions | filter:query">
                             <card-panel title="{{minion.name}}"></card-panel>
                         </li>

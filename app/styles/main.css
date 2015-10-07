@@ -4981,3 +4981,6 @@ button.close {
     height: 20%; }
     .mw-card-panel .mw-card-panel-bottom .mw-card-panel-title {
       text-align: center; }
+
+.auto-center-list {
+  text-align: center; }
